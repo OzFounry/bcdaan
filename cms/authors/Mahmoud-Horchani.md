@@ -6,6 +6,8 @@ published-on: 2022-11-05T20:38:55.609Z
 f_headshot:
   url: /assets/images/2c691b68e3b3b04acc27a86613cbc90110858722.jpeg
   alt: محمود الحرشاني
+f_cover-image:
+  url: /assets/images/year-in-review-background-p-2000.jpeg
 f_biography: >-
   كاتب و صحفي اول رئيس تحرير الموقع. مدير مؤسس لمجلة مرآة الوسط  و موقع الثقافية
   التونسية .رئيس سابق لفرع اتحاد الكتاب التونسيين بسيدي بوزيد وعضو المجلس
