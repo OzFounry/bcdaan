@@ -9,7 +9,9 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
-
+udesly-banner.hydrated {
+    margin-bottom: 80EM;
+}
 .w-commerce-commercecheckoutformcontainer {
   width: 100%;
   min-height: 100vh;
