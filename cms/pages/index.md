@@ -6,7 +6,9 @@ slug: ''
 tags: pages
 seo:
   noindex: false
-  title: bcda
+  title: Home
+  og:title: Home
+  twitter:title: Home
 ---
 
 

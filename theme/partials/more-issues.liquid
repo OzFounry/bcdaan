@@ -1,0 +1,15 @@
+<div class="sec-article-more-issues wf-section">
+    <div data-w-id="a67633f2-c32e-122e-7bb6-d0d289b49ceb" class="con-posts-more-issues w-container">
+      <h2 class="h2-posts-more-issues">{{ texts.-4e68f925 }}</h2>
+      {%- assign collection = collections.issue | offset: 1 | limit: 4 | sort: "-created-on" -%}<div class="w-dyn-list">
+        {%- unless collection.length == 0 -%}<div fs-cmsload-element="list" fs-cmsload-mode="pagination" role="list" class="collection-list-14 w-dyn-items">
+          {%- for item in collection -%}<div role="listitem" class="collection-item-posts-more-issues w-dyn-item">
+            <a data-w-id="a67633f2-c32e-122e-7bb6-d0d289b49cf1" href="{{ item.url }}" class="link-block-27 w-inline-block"><img loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;90vw&quot;},{&quot;max&quot;:767,&quot;size&quot;:&quot;215px&quot;},{&quot;max&quot;:991,&quot;size&quot;:&quot;356px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;223px&quot;}]" src="{{ item.data.f_cover-image.url }}" alt="{{ item.data.title }}"></a>
+          </div>{%- endfor -%}
+        </div>{%- endunless -%}
+        {%- if collection.length == 0 -%}<div class="w-dyn-empty">
+          <div>{{ texts.3d503d2b }}</div>
+        </div>{%- endif -%}
+      </div>
+    </div>
+  </div>
