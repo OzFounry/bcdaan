@@ -220,7 +220,7 @@
   <div class="sec-home-advertisements wf-section">
     <div class="con-home-advertisements w-container">
       <h3 class="h3-home-advertisement">{{ texts.2ecd1ba4 }}</h3>
-      {%- assign collection = collections.posts | limit: 2 | sort: "-created-on" -%}<div class="w-dyn-list">
+      {%- assign collection = collections.posts | filter: "f_tags,idin,cms/tag/Dialogues-and-discussions.md", "ALL", page.inputPath | offset: 0 | limit: 2 | sort: "-created-on" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items w-row">
           {%- for item in collection -%}<div role="listitem" class="w-dyn-item w-col w-col-6">
             <div class="div-home-advertisement-single-container">
