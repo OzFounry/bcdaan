@@ -243,7 +243,7 @@
       <h3 class="h3-home"><strong>{{ texts.-ddf77f }}</strong></h3>
       <div class="div-home-topic-container">
         <a href="{{ links.23 }}" class="div-home-topic-scroll-button jetboost-pagination-prev-2ek2 w-inline-block"><img src="{{ images.5418d0f9.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:479,&quot;size&quot;:&quot;100vw&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;20px&quot;}]" alt="{{ images.5418d0f9.alt | trim | escape }}" class="image-83"></a>
-        {%- assign collection = collections.posts | filter: "f_tags,idin,cms/tag/japanese-culture.md", "ALL", page.inputPath | offset: 4 | limit: 16 | sort: "-created-on" -%}<div class="collection-list-wrapper-13 jetboost-list-wrapper-2ek2 w-dyn-list">
+        {%- assign collection = collections.posts | filter: "f_tags,idin,cms/Research-and-studies.md", "ALL", page.inputPath | offset: 4 | limit: 16 | sort: "-created-on" -%}<div class="collection-list-wrapper-13 jetboost-list-wrapper-2ek2 w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="collection-list-33 w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="cms-home-topic-single-container w-dyn-item">
               <div class="html-jetboost w-embed"><input type="hidden" class="jetboost-list-item" value="{{ item.data.slug }}"></div>
