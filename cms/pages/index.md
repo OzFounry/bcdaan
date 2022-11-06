@@ -1,14 +1,15 @@
 ---
-title: Home
+title: الثقافية التونسية
 permalink: index.html
 layout: index.html
-slug: ''
+slug: ""
 tags: pages
+date: 2022-11-06T10:58:17.294Z
 seo:
   noindex: false
-  title: Home
-  og:title: Home
-  twitter:title: Home
+  title: الثقافية التونسية
+  og:title: الثقافية التونسية
+  twitter:title: الثقافية التونسية
+  description: مجلة  ثقافية الكترونية مستقلة  تعنى باخبار الثقافة والفكر والفنون
+    في تونس والعالم العربي
 ---
-
-
