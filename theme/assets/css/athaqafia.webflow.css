@@ -3249,8 +3249,8 @@ figcaption {
 }
 
 .rich-article-main p {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 19px;
+  line-height: 33px;
 }
 
 .rich-article-main blockquote {
@@ -11955,7 +11955,7 @@ figcaption {
   }
 
   .rich-article-main p {
-    line-height: 20px;
+    line-height: 33px;
   }
 
   .rich-article-main blockquote {
