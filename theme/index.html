@@ -178,7 +178,7 @@
                 {%- assign authorsOfPosts = item.data.f_author-2 | resolveReference -%}<a href="{{ authorsOfPosts.url }}" class="a-home-topic-author">{{ authorsOfPosts.data.title }}</a>
               </div>
               <p class="p-home-scroll-section">{{ item.data.f_summary-content }}</p>
-              <a href="{{ links.23 }}" class="a-home-header-read-more">{{ texts.-4bde5b82 }}</a>
+              <a href="{{ item.url }}" class="a-home-header-read-more">{{ texts.-4bde5b82 }}</a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
           {%- if collection.length == 0 -%}<div class="w-dyn-empty">
@@ -206,7 +206,7 @@
                 {%- assign authorsOfPosts = item.data.f_author-2 | resolveReference -%}<a href="{{ authorsOfPosts.url }}" class="a-home-topic-author">{{ authorsOfPosts.data.title }}</a>
               </div>
               <p class="p-home-scroll-section">{{ item.data.f_summary-content }}</p>
-              <a href="{{ links.23 }}" class="a-home-header-read-more">{{ texts.-4bde5b82 }}</a>
+              <a href="{{ item.url }}" class="a-home-header-read-more">{{ texts.-4bde5b82 }}</a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
           {%- if collection.length == 0 -%}<div class="w-dyn-empty">
@@ -255,7 +255,7 @@
                 {%- assign authorsOfPosts = item.data.f_author-2 | resolveReference -%}<a href="{{ authorsOfPosts.url }}" class="a-home-topic-author">{{ authorsOfPosts.data.title }}</a>
               </div>
               <p class="p-home-scroll-section">{{ item.data.f_summary-content }}</p>
-              <a href="{{ links.23 }}" class="a-home-header-read-more">{{ texts.-4bde5b82 }}</a>
+              <a href="{{ item.url }}" class="a-home-header-read-more">{{ texts.-4bde5b82 }}</a>
             </div>{%- endfor -%}
           </div>{%- endunless -%}
           {%- if collection.length == 0 -%}<div class="w-dyn-empty">
