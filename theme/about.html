@@ -81,7 +81,7 @@
   <div class="sec-about-team wf-section">
     <div data-w-id="6c0cacf9-de9b-7707-408d-ce36779b9854" style="opacity:0" class="w-container">
       <h2 class="h2-about h2-about-addon">{{ texts.-2e65257b }}</h2>
-      {%- assign collection = collections.authors | filter: "f_role,eq,Editorial Committee", "ALL", page.inputPath | sort: "title" -%}<div class="w-dyn-list">
+      {%- assign collection = collections.authors | "ALL", page.inputPath | sort: "title" -%}<div class="w-dyn-list">
         {%- unless collection.length == 0 -%}<div role="list" class="collection-list-11 w-dyn-items">
           {%- for item in collection -%}<div role="listitem" class="collection-item-about-team w-dyn-item">
             <a href="{{ item.url }}" class="link-block-14 w-inline-block" style="background-image: url('{{item.data.f_headshot.url}}');"></a>
