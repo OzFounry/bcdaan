@@ -25,12 +25,12 @@
       "@type": "NewsArticle",
       "headline": "{{ title }}",
       "image": [
-        "{{ images.48f6341.url }}"
+        "{{ links.2f }}{{ images.48f6341.url }}"
        ],
       "datePublished": "{{ created-on | formatDate: "MMMM d, yyyy" }}",
       "author": [{
           "@type": "Person",
-          "name": "{{ authorsOfPosts.data.title }}",
+          "name": "{%- assign authorsOfPosts = f_author-2 | resolveReference -%}{{ authorsOfPosts.data.title }}",
           "url": "{{ authorsOfPosts.url }}"
       }]
     }
