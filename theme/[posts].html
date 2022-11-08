@@ -19,7 +19,22 @@
 
 <meta property="fb:app_id" content="" />
 <meta name="twitter:site" content="">
-  
+   <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsArticle",
+      "headline": "{{ title }}",
+      "image": [
+        "{{ images.48f6341.url }}"
+       ],
+      "datePublished": "{{ created-on | formatDate: "MMMM d, yyyy" }}",
+      "author": [{
+          "@type": "Person",
+          "name": "{%- assign authorsOfPosts = f_author-2 | resolveReference -%} ",
+          "url": "{{ authorsOfPosts.url }}"
+      }]
+    }
+    </script>
   
   
   
