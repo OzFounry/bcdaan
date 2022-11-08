@@ -30,7 +30,7 @@
       "datePublished": "{{ created-on | formatDate: "MMMM d, yyyy" }}",
       "author": [{
           "@type": "Person",
-          "name": "{%- assign authorsOfPosts = f_author-2 | resolveReference -%} ",
+          "name": "{{ authorsOfPosts.data.title }}",
           "url": "{{ authorsOfPosts.url }}"
       }]
     }
