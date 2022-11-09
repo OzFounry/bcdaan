@@ -5,10 +5,8 @@ const markdownIt = require("markdown-it");
     html: true,
     });
 
-      const pluginRss = require("@11ty/eleventy-plugin-rss");
       const createCollectionsAndFilters = require('./_utils/index.js');
       module.exports = function(eleventyConfig) {
-            eleventyConfig.addPlugin(pluginRss);
      eleventyConfig.addFilter("markdown", (content) => {
             if (typeof content == "string") {
                 return md.render(content);
