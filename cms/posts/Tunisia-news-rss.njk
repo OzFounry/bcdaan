@@ -1,6 +1,8 @@
 ---
 permalink: /posts/tunisia-news-rss.xml
 eleventyExcludeFromCollections: true
+tags:
+  - Tunisia-news
 ---
 {%- if collections['posts'][0] -%}
 <?xml version="1.0" encoding="utf-8"?>
@@ -11,7 +13,7 @@ eleventyExcludeFromCollections: true
     <link>{{ settings.site.domain }}</link>
     <pubDate>{{ collections['posts'][0].date.toUTCString() }}</pubDate>
     <atom:link href="{{ settings.site.domain }}/posts/rss.xml" rel="self" type="application/rss+xml"/>
-    {%- for post in collections['posts']| filter: "f_tags,idin,cms/tag/Tunisia-news.md" | reverse %}
+    {%- for post in collections['posts']| reverse %}
         <item>
             <title>{{ post.data.title }}</title>
             {% if post.data['f_image'] %}
