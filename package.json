@@ -10,7 +10,6 @@
     "fs-extra": "^9.1.0",
     "fuse.js": "^6.4.6",
     "node-fetch": "^2.6.1"
-    "@11ty/eleventy-plugin-rss" : "1.0.5"
   },
   "scripts": {
     "optimize": "node ./_utils/scripts/optimize-assets.js",
