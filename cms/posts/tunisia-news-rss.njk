@@ -9,7 +9,8 @@ eleventyExcludeFromCollections: true
     <title>Posts </title>
     <description>Posts  Feed</description>
     <link>{{ settings.site.domain }}</link>
-    <pubDate>{{ collections['posts'][0].date.toUTCString() }}</pubDate>
+    <pubDate>{{ collections['Tunisia-news'] | reverse %}
+        <item>'][0].date.toUTCString() }}</pubDate>
     <atom:link href="{{ settings.site.domain }}/posts/tunisia-news-rss.xml" rel="self" type="application/rss+xml"/>
     {%- for post in collections['Tunisia-news'] | reverse %}
         <item>
