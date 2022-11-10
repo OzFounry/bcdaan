@@ -9,6 +9,23 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
+a#gn:hover {
+    background-color: #e76f51;
+}
+a#gn {
+    background-color: #274653;
+    background-image: url(https://cdn.worldvectorlogo.com/logos/google-news-2.svg);
+    width: 202px;
+    height: 46px;
+    margin-left: -2px;
+    padding: 14px;
+    float: right;
+    border-radius: 0;
+    background-position: 4% 50%;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    margin-bottom: 2px;
+    text-align: right;
 .div-home-header-byline-container{align-self: end; }
 udesly-banner.hydrated {
     margin-bottom: 800EM;
