@@ -1,5 +1,5 @@
 ---
-title: Sonia Farsi
+title: سنية فارسي
 created-on: 2022-11-11T16:55:16.615Z
 updated-on: 2022-11-11T16:55:16.641Z
 published-on: 2022-11-11T16:55:16.652Z
