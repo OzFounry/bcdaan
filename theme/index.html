@@ -124,7 +124,7 @@
         {%- assign collection = collections.posts | limit: 1 | sort: "-created-on" -%}<div class="cms-home-primary-container w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="cms-home-header-main w-dyn-item">
-              <a href="{{ item.url }}" class="link-block-34 w-inline-block" style="background-image">{{item.data.f_header-image.url}}</a>
+              <a href="{{ item.url }}" class="link-block-34 w-inline-block" style="background-image"> {%- image setItem.url  -%} </a>
               <a href="{{ item.url }}" class="w-inline-block">
                 <h1 class="h1-home-header-title">{{ item.data.title }}</h1>
               </a>
