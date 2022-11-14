@@ -121,7 +121,7 @@
   <div class="sec-home-header wf-section">
     <div class="con-home-header-2 w-container">
       <div class="div-home-header-left">
-        {%- assign collection = collections.posts | limit: 1 | sort: "_random" -%}<div class="cms-home-primary-container w-dyn-list">
+        {%- assign collection = collections.posts | sort: "-created-on" | offset: 4 | limit: 1 -%}<div class="cms-home-primary-container w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="cms-home-header-main w-dyn-item">
               <a href="{{ item.url }}" class="link-block-34 w-inline-block" style="background-image: url('{{item.data.f_header-image.url}}');"></a>
