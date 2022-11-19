@@ -162,7 +162,7 @@
         </div>
       </div>
       <div class="div-home-header-right">
-        {%- assign collection = collections.issue | limit: 1 | sort: "-created-on" -%}<div class="w-dyn-list">
+        {%- assign collection = collections.issue.reverse() | limit: 1 | -%}<div class="w-dyn-list">
           {%- unless collection.length == 0 -%}<div role="list" class="w-dyn-items">
             {%- for item in collection -%}<div role="listitem" class="collection-item-15 w-dyn-item">
               <a href="{{ item.url }}" class="a-home-header-issue w-inline-block"><img src="{{ item.data.f_cover-image.url }}" loading="lazy" data-sizes="[{&quot;max&quot;:991,&quot;size&quot;:&quot;285px&quot;},{&quot;max&quot;:10000,&quot;size&quot;:&quot;268.984375px&quot;}]" alt="{{ item.data.f_cover-image.alt }}" class="img-home-current-issue"></a>
