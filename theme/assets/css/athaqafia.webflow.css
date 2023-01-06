@@ -9160,7 +9160,8 @@ figcaption {
 .text-home-navigation-logo {
   font-family: 'Reem Kufi', sans-serif;
   font-size: 60px;
-  line-height: 1em;
+  line-height: 1.1em;
+  padding: 15px;
   font-weight: 500;
 }
 
