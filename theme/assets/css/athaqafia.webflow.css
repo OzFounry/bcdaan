@@ -9,6 +9,10 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
+@media screen and (max-width: 479px) {
+.link-block-home-navigation-side-logo-container {
+    margin-bottom: 35px;
+}}
 p.ISSN {
     position: absolute;
     margin-top: 0.5vh;
