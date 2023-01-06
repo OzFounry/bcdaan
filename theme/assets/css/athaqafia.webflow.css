@@ -9,6 +9,10 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
+p.ISSN {
+    position: absolute;
+    margin-top: 0.5vh;
+}
 a#gn:hover {
     background-color: #e76f51;
 }
