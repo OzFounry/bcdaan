@@ -11,7 +11,7 @@
 }
 @media screen and (max-width: 479px) {
 .link-block-home-navigation-side-logo-container {
-    margin-bottom: 35px;
+    margin-bottom: 35px !important;
 }}
 p.ISSN {
     position: absolute;
